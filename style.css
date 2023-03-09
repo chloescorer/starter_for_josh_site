@@ -1,152 +1,121 @@
+/* Header & Navbar */
+
+/* Header Background */
 .bg1{
     background:url("images/headerbg.jpg");
-    background-size: cover;
-    height:90vh;
-    }
+    background-size: cover; }
 
+/* Navbar Font Size */
 .navbar{
-    font-size:0.875em;
-    }
+    font-size:0.875em; }
 
+/* Navbar Logo Styling */
 .navbar-brand {
     font-weight: bolder;
-    letter-spacing: -3px;
-    }
+    letter-spacing: -2px; }
 
+/* Orange Span Styling */
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-    color: #FDA118;
-    }
-
+    color: #FDA118; }
 .orange {
-    color: #FDA118;     
-    }
-
+    color: #FDA118; }
 .josh {
-    color: white;
-    }
-            
-.tagline{
-        float:right;
-        display: flex;
-        justify-content: flex-end;
-        color:#ffff;/* make the text white*/
-        margin-top:140px;/* the words are 140px away from the navbar in Figma*/
-        text-align:right;
-        padding-bottom: 10%; /* use a percentage so that we have a variable padding at the bottom – the children within the div should control the height of divs*/
-        margin-right: 15%;
-    }
+    color: white; }
 
-.tagline h1{
+/* Tagline Styling */        
+.tagline {
+    display: flex;
+    justify-content: flex-end;
+    color:#ffff;
+    text-align:right;
+    margin-top:140px;
+    padding-bottom: 10%;
+    margin-right: 15%; }
+.tagline h1 {
     font-family: 'Raleway', sans-serif;
     width:341px;
     font-size:7.125em;
     letter-spacing: -10px;
     font-weight: 800;
-    line-height:75%;
-    }
+    line-height:75%; }
 
+/* About Section Styling */
+.aboutbg{
+    background-color:  #d9dade;
+    padding: 2%; }
 
-
-
-
-    .aboutbg{
-        background-color:  #d9dade;
-        padding: 2%;
-      }
-      .aboutbg h2{
-          font-size:2.4em;
-          font-family: 'Raleway', sans-serif;
-           font-weight:800;
-      }
+.aboutbg h2{
+    font-size:2.4em;
+    font-family: 'Raleway', sans-serif;
+    font-weight:800; }
       
-      .particle {
+.particle {
+    text-align: right;
+    margin-right: 150px;
+    font-size: 1.8em;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 0px;
+    padding-bottom: 40px; }
       
-          text-align: right;
-          margin-right: 150px;
-          font-size: 1.8em;
-          font-style: italic;
-          font-weight: 400;
-          line-height: 0px;
-          padding-bottom: 40px;
-      }
-      
-      .about-text{
+.about-text{
           
-          margin-left:40px;
-          margin-right:40px;
-          font-size:1.4em;
-          line-height:2em;
-          }
+    margin-left:40px;
+    margin-right:40px;
+    font-size:1.4em;
+    line-height:2em; }
       
-      .blocker {
+.blocker {
       
-          width: 133px;
-          height: 10px;
-          background-color: purple;
-          margin: auto;
-          margin-bottom: 40px;
-      }
+    width: 133px;
+    height: 10px;
+    background-color: purple;
+    margin: auto;
+    margin-bottom: 40px; 
+    margin-top:20px }
 
+/* Articles Styling */
+.articlesbg{
+    background-color: #f5f5f5; }
 
+.article-title {
+    font-size: 1.4em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: #251341;
+    margin-bottom: 0px;
+    padding-top: 20px; }
 
-      .articlesbg{
-        background-color: #f5f5f5;
-    }
-
-
-
-
-    .article-title {
-        font-size: 1.4em;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 800;
-        color: #251341;
-        margin-bottom: 0px;
-        padding-top: 20px;
-        text-align:left;
-    }
-
-   .date{
-   font-size: 0.8em;
-margin-top: -5px;
-font-weight: lighter;
-font-style: italic;
-text-align:left;
-}
- 
-.article-p{
-text-align:left;
-
-}
- 
- .readmore{
-    display:block;
-     color: #a19ba6;
-     font-size: 0.9em;
-    margin-bottom: 30px; 
-    text-align:left;
- }
 .articlesbg h3{
-padding-top:30px;
-padding-bottom:30px;
-font-weight:bold;
-}
+    padding-top:30px;
+    padding-bottom:30px;
+    font-weight:bold; }
 
+.date{
+    font-size: 0.8em;
+    margin-top: -5px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align:left; }
 
-
-
-
+.readmore{
+    display:block;
+    color: #a19ba6;
+    font-size: 0.9em;
+    margin-bottom: 30px; 
+    text-align:left; }
+ 
+.article-p {
+    text-align:left; }
+ 
+/* Footer Styling */
 footer{
     background-image:url("images/footerbg.jpg");
     background-size:cover;
     width:100%;
-background-position: center center;
-    
-}
+    background-position: center center; }
 
 footer p{
-
     color:#f5f5f5;
     font-weight: bold;
-    padding:5%;
-}
+    padding:5% }
