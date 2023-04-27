@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
-<title> >   <?php
+<title> <?php
   if (function_exists('is_tag') && is_tag()) {
      single_tag_title("Tag Archive for &quot;"); echo '&quot; - '; }
   elseif (is_archive()) {
@@ -25,14 +25,16 @@
       bloginfo('name'); }
   if ($paged>1) {
      echo ' - page '. $paged; }
-?> </title>
+?>
+</title>
 <meta name="description" content="<?php bloginfo('description'); ?>">
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
 </head>
 
 <body>
 <!-- Header & Navbar -->
-<header class="container-fluid small_herobg">
+<!-- <header class="container-fluid small_herobg"> -->
+<header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('projectsheaderbackgroundimage') ?>);">
   <div class="container">
     <nav class="navbar navbar-expand-md navbar-dark"> <!-- Navbar -->
     <!-- Brand -->
