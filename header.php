@@ -59,7 +59,7 @@ wp_nav_menu( array(
 ?>
 
       </nav> <!-- Navbar -->
-      <div class="tagline"> <!-- Tagline -->
+      <div class="tag"> <!-- Tagline -->
       <h1><?php the_field('maintagline'); ?></h1>
       </div> <!-- Tagline -->
     </div> <!-- Container -->
