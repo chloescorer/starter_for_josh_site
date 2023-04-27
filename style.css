@@ -32,7 +32,7 @@ Version: 1
     color: white; }
 
 /* Tagline Styling */        
-.tagline {
+.tag {
     display: flex;
     justify-content: flex-end;
     color:#ffff;
@@ -40,13 +40,6 @@ Version: 1
     margin-top:140px;
     padding-bottom: 10%;
     margin-right: 15%; }
-.tagline h1 {
-    font-family: 'Raleway', sans-serif;
-    width:341px;
-    font-size:7.125em;
-    letter-spacing: -10px;
-    font-weight: 800;
-    line-height:75%; }
 
     .small_herobg {
         width: 100%;
@@ -55,6 +48,14 @@ Version: 1
     height: 40vh; /*Viewport Height (vh) — This unit is based on the height of the viewport. A value of 1vh is equal to 1% of the viewport height. */
     
     }
+
+.tag h1 {
+    font-family: 'Raleway', sans-serif;
+    width:341px;
+    font-size:7.125em;
+    letter-spacing: -10px;
+    font-weight: 800;
+    line-height:75%; }
      
 
 /* About Section Styling */
