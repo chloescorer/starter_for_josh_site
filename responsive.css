@@ -8,7 +8,7 @@
 .bg1 {
     background-position:center center}
     
-.tagline{
+.tag{
     display:flex;
     justify-content: center;
     text-align:right;
@@ -16,7 +16,7 @@
     margin-right: 0%;
     margin-top: 40%; }
     
-.tagline h1{
+.tag h1{
     font-size: 4em;
     letter-spacing: -5px;
     font-weight: 800;
